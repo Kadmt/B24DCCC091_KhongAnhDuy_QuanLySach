@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Quản lý thư viện sách</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Quản lý thư viện sách</string>
+    <string name="login_subtitle">Đăng nhập để theo dõi sách của bạn</string>
+    <string name="username_label">Tên đăng nhập</string>
+    <string name="username_hint">Nhập tên đăng nhập</string>
+    <string name="password_label">Mật khẩu</string>
+    <string name="password_hint">••••••</string>
+    <string name="login_error">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_sample_account">Tài khoản mẫu: admin / 123456</string>
+
+    <!-- Main Screen -->
+    <string name="main_title">Thư viện sách cá nhân</string>
+    <string name="stats_title">Thống kê tình trạng đọc</string>
+    <string name="stats_format">Tổng: %1$d | Đã đọc: %2$d | Chưa xong: %3$d</string>
+    <string name="book_list_title">Danh sách sách</string>
+    <string name="click_to_view_detail">(Nhấn vào một cuốn sách để xem chi tiết)</string>
+    <string name="add_book_button">+ Thêm sách mới</string>
+    <string name="empty_book_list">Chưa có cuốn sách nào trong thư viện!</string>
+
+    <!-- Add Book Screen -->
+    <string name="add_book_title">Thêm sách mới</string>
+    <string name="book_title_label">Tên sách *</string>
+    <string name="book_title_hint">Ví dụ: Lập trình Android cơ bản</string>
+    <string name="book_author_label">Tác giả *</string>
+    <string name="book_author_hint">Ví dụ: Nguyễn Văn A</string>
+    <string name="book_category_label">Thể loại</string>
+    <string name="book_status_label">Tình trạng đọc</string>
+    <string name="status_unread">Chưa đọc</string>
+    <string name="status_reading">Đang đọc</string>
+    <string name="status_read">Đã đọc</string>
+    <string name="book_rating_label">Đánh giá</string>
+    <string name="rating_format">%1$.1f / 5 sao</string>
+    <string name="book_note_label">Ghi chú</string>
+    <string name="book_note_hint">Nhập cảm nhận hoặc ghi chú về sách (nhiều dòng)...</string>
+    <string name="save_book_button">Lưu sách</string>
+
+    <!-- Detail Book Screen -->
+    <string name="detail_book_title">Chi tiết cuốn sách</string>
+    <string name="author_prefix">Tác giả: </string>
+    <string name="category_prefix">Thể loại: </string>
+    <string name="mark_as_read_button">✓ Đánh dấu đã đọc</string>
+    <string name="already_read_label">✓ Đã đọc xong</string>
+    <string name="back_button">Quay lại</string>
+    <string name="delete_book_button">Xóa cuốn sách này</string>
+    <string name="dialog_delete_book_title">Xác nhận xóa sách</string>
+    <string name="dialog_delete_book_message">Bạn có chắc chắn muốn xóa cuốn sách \"%1$s\" không?</string>
+    <string name="dialog_confirm_delete">Xóa</string>
+    <string name="dialog_cancel">Hủy</string>
+    <string name="no_note_placeholder">(Không có ghi chú)</string>
+
+    <!-- Validation & Messages -->
+    <string name="error_empty_title">Tên sách không được để trống!</string>
+    <string name="error_empty_author">Tác giả không được để trống!</string>
+    <string name="error_empty_field">Vui lòng nhập đầy đủ tên sách và tác giả!</string>
+    <string name="add_book_success">Đã thêm cuốn sách thành công!</string>
+    <string name="delete_book_success">Đã xóa sách khỏi thư viện!</string>
+    <string name="mark_as_read_success">Đã cập nhật tình trạng: Đã đọc!</string>
+    <string name="rating_updated">Đã cập nhật đánh giá %1$.1f sao!</string>
+
+    <!-- Categories Array -->
+    <string-array name="book_categories">
+        <item>Văn học</item>
+        <item>Khoa học</item>
+        <item>Công nghệ</item>
+        <item>Kỹ năng sống</item>
+        <item>Khác</item>
+    </string-array>
+</resources>

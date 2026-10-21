@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Teal Circle Background -->
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M50,0 A50,50 0 1,1 49.99,0 Z" />
+    <!-- White Currency Symbol "đ" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30 L52,30 C58.6,30 64,35.4 64,42 C64,48.6 58.6,54 52,54 L46,54 L46,70 L38,70 Z M46,38 L46,46 L52,46 C54.2,46 56,44.2 56,42 C56,39.8 54.2,38 52,38 Z M32,42 L68,42 L68,36 L32,36 Z" />
+</vector>

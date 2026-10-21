@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Main Color Palette (Teal Theme) -->
+    <color name="teal_primary">#00695C</color>
+    <color name="teal_primary_dark">#004D40</color>
+    <color name="teal_primary_light">#E0F2F1</color>
+
+    <!-- Status Colors -->
+    <color name="status_read_bg">#E8F5E9</color>
+    <color name="status_read_text">#2E7D32</color>
+    <color name="status_reading_bg">#E3F2FD</color>
+    <color name="status_reading_text">#1565C0</color>
+    <color name="status_unread_bg">#FFF3E0</color>
+    <color name="status_unread_text">#E65100</color>
+    <color name="star_gold">#FFA000</color>
+
+    <!-- Warning / Delete Colors -->
+    <color name="red_danger">#D32F2F</color>
+    <color name="red_amount">#D32F2F</color>
+    <color name="red_light">#FFEBEE</color>
+
+    <!-- Backgrounds & Text Colors -->
+    <color name="bg_app">#F8F9FA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Border & Divider Colors -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="card_bg">#FFFFFF</color>
+</resources>
